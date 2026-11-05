@@ -1,0 +1,17 @@
+name: Legendaries
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Fifteen legendary items, each with two unique powers, custom lore, particles and sounds.
+author: EnderDevelopment
+commands:
+  legendaries:
+    description: Manage legendary items.
+    usage: /legendaries give <player> <item_id>
+    aliases: [lg]
+    permission: legendaries.admin
+    permission-message: You do not have permission to use this command.
+permissions:
+  legendaries.admin:
+    description: Allows use of the /legendaries command.
+    default: op
